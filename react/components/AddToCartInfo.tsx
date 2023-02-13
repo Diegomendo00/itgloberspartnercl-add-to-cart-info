@@ -44,10 +44,10 @@ const AddToCartInfo = ({blockClass}: {blockClass: string}) =>{
     }
     <div>
       <p className={container__item_text}>Tienes {items.length} items en tu carrito, para continuar con el
-      pago dirigte a <a href="/minicart" className={container__item_link}>VER CARRITO</a></p>
+      pago dirigte a <a href="/minicart" className={container__item_link}>Mi Carrito</a></p>
     </div >
     <div  className={container__item_button}>
-      <a href="/" className={container__item_button_link}>SEGUIR COMPRANDO</a>
+      <a href="/" className={container__item_button_link}>Seguir comprando</a>
     </div>
     </div>
   )
