@@ -8,6 +8,7 @@ import styles from "./styles.css"
 const AddToCartInfo = ({blockClass}: {blockClass: string}) =>{
   const container = generateBlockClass(styles.container, blockClass)
   const container__item = generateBlockClass(styles.container__item, blockClass)
+  const container__item_title = generateBlockClass(styles.container__item_title, blockClass)
   const container__item_image = generateBlockClass(styles.container__item_image, blockClass)
   const container__item_name = generateBlockClass(styles.container__item_name, blockClass)
   const container__item_price = generateBlockClass(styles.container__item_price, blockClass)
@@ -24,6 +25,7 @@ const AddToCartInfo = ({blockClass}: {blockClass: string}) =>{
   console.log(items, totalizers, productInfo)
   return (
     <div className={container}>
+		<p className={container__item_title}> !! SE HA AGREGADO CORRECTAMENTE EL PRODUCTO !!</p>
     {
       items.map((item:any, index: number) =>{
         console.log(item)
