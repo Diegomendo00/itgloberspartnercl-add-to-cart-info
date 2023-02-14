@@ -8,6 +8,12 @@
   align-items: center;
 }
 
+.container__item_title{
+  max-width: 400px;
+  text-align: center;
+  font-weight: bold;
+}
+
 .container__item_image{
   border: 1px rgb(47, 83, 160) solid;
   border-radius: 5px;
@@ -15,7 +21,8 @@
 .container__item_name{
   max-width: 250px;
   min-width: 150px;
-  padding-left: 5%
+  padding-left: 5%;
+  font-weight: bold;
 }
 .container__item_price{
   padding-left: 5%
@@ -49,8 +56,4 @@
 .container__item_text{
   max-width: 400px;
   text-align: center;
-}
-
-@media screen and (min-width: 700px){
-
 }
